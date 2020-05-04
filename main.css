@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 50vh;
+  padding: 1.5rem;
+}
+
+.message h1 {
+  font-weight: 300;
+}
+
+.message .gray {
+  font-size: 0.7rem;
+  color: gray;
+  font-style: italic;
+  margin-left: 1rem;
+}
+
+.message .logo {
+  margin-top: 3rem;
+  font-size: 1.8em;
+}
+
+.balloons {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-color: whitesmoke;
+}
+
+.balloons .balloon {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 50vh;
+    padding: 1.5rem;
+
+    h1 {
+        font-weight: 300;
+    }
+    
+    .gray {
+        font-size: 0.7rem;
+        color: gray;
+        font-style: italic;
+        margin-left: 1rem;
+    }
+    
+    .logo {
+        margin-top: 3rem;
+        font-size: 1.8em;
+    }
+}
+
+.balloons {
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+    background-color: whitesmoke;
+
+    .balloon {
+        position: absolute;
+        border-radius: 50%;
+        opacity: 0.8;
+    }
+}
+
